@@ -1,0 +1,76 @@
+.div-login{
+	position: absolute;
+	top:25%;
+	left:35%;
+	right:35%;
+}
+.div-a-forgetpw,.div-a-login{
+	float:left;
+	margin-top:20px;
+}
+.div-a-register{
+	float:right;
+	margin-top:20px;
+}
+.a-register,.a-forgetpw,.a-login{
+	font-size:16px;
+}
+.a-register:hover,.a-forgetpw:hover,.a-login:hover{
+	text-decoration: none;
+}
+.div-register{
+	position: absolute;
+	top:15%;
+	left:35%;
+	right:35%;
+}
+.img-circle{
+	width: 100px;
+	height: 100px;
+}
+
+.div-img-upload{
+	position:absolute;
+	top:0;
+}
+.a-img-upload {
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #4f4f4f;
+    opacity: 0.4;
+    border: 1px solid #888;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height:100px;
+    text-align:center;
+    font-size:90px;
+    font-weight:400;
+}
+.a-img-upload:link{
+	text-decoration:none ; 
+}
+.a-img-upload:hover {
+    color: #000000;
+    border-color: #000000;
+    text-decoration: none ;
+}
+.a-img-upload:visited{
+	color: #888;
+	border-color: #888;
+	text-decoration: none;
+}
+
+.a-img-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
